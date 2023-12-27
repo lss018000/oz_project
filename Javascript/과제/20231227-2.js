@@ -29,6 +29,8 @@ function question(n) {
         }
     }
     result = Math.min.apply(null, result_array);
+    // result = Math.min(result_array);
+    console.log(result);
     return result;
 }
 
