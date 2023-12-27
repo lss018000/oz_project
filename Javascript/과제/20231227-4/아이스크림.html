@@ -20,17 +20,14 @@
         let input_array = ["메로나"];
         add.addEventListener("click", function(){
             input_array.push(prompt());
-            // alert(input_array);
         })
         alert_list.addEventListener("click", function(){
             for(let i = 0; i < input_array.length; i++){
                 alert(input_array[i]);
             }
-            // alert(input_array);
         })
         all_list.addEventListener("click", function(){
             print_all.innerHTML = input_array;
-            // alert(input_array);
         })
 
     </script>
