@@ -17,12 +17,13 @@
 function question(n) {
     // 여기에서 코드 작성해주세요!
     let result;
-    let j = 0;
+    // let j = 0;
     let result_array = [];
     for(let i = 1;i < n; i++){
         if(n % i == 1){
-            result_array[j] = i;
-            j++;
+            result_array.push(i);
+            // result_array[j] = i;
+            // j++;
         } else {
 
         }
