@@ -22,7 +22,6 @@ function question(n) {
     for(let i = 1;i < n; i++){
         if(n % i == 1){
             result_array[j] = i;
-            
             j++;
         } else {
 
