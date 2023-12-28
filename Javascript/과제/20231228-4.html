@@ -41,7 +41,6 @@
             inner_table = inner_table + `<tr><td>${table_val[i][0]}</td><td>${table_val[i][1]}</td></tr>`;
             if(table_val[i][1] >= 75){
                 basic_array.push(`${table_val[i][0]}(${table_val[i][1]}점)`);
-
                 advan_array.push([table_val[i][0],table_val[i][1]]);
             }
         }
@@ -50,13 +49,10 @@
         for(let j = 0; j < advan_array.length; j++){
             advan_html.push(`${advan_array[j][0]}(${advan_array[j][1]}점)`);
         }
-        // advan_array.sort((a,b) => a[0] + a[1] - (b[0] + b[1]));
-        // advan_array.sort((a, b) => a[0] + a[1] - (b[0] + b[1]));
         console.log(advan_array);
         table.innerHTML = inner_table;
         basic_result.innerHTML = '기본결과 : ' + basic_array;
         advan_result.innerHTML = '심화결과 : ' + advan_html;
-        // console.log(basic_array);
     </script>
     
 </body>
