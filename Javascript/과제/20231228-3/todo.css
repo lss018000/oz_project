@@ -87,7 +87,6 @@
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
-    width:100%;
   }
   input{
     font-size: 1.4em;
@@ -107,7 +106,6 @@
     width: 80px;
     border-radius: 8px;
     background-color: rgb(254, 229, 77);
-    float:right;
   }
   
   .done{
